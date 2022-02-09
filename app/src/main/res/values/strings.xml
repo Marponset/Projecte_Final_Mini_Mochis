@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Projecte Final Mini Mochis</string>
+    <string name="BTAnarLogin">Login</string>
+    <string name="etCorreuLogin">Introdueix el teu correu</string>
+    <string name="etContrassenyaLogin">Introdueix la teva contrassenya</string>
+    <string name="BTLogin">Entrar</string>
 </resources>

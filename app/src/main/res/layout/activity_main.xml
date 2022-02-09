@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.jmarpons.projectefinalminimochis.MainActivity" >
 
-    <TextView
+    <!--android:layout_below="@+id/imageView10"-->
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hola bon dia estic fent proves 2"
-        tools:ignore="HardcodedText" />
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="69dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="70dp">
+
+        <!--Login-->
+        <Button
+            android:id="@+id/BTAnarLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="src_in"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:shadowRadius="50.300"
+            android:text="@string/BTAnarLogin" />
+
+        <!--
+        <Button
+            android:id="@+id/BTRegistre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="src_in"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:shadowRadius="50.300"
+            android:text="@string/BTRegistre" />
+            -->
+
+    </LinearLayout>
+
+    <!--
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="296dp"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="53dp"
+        app:srcCompat="@drawable/text" />
+        -->
 </RelativeLayout>
