@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Jocs"
+        android:id="@+id/app_bar_games"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_videogame_asset_24"/>
+
+
+    <item android:title="Chat"
+        android:id="@+id/app_bar_chat"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_chat_bubble_24"/>
+
+    <item android:title="Activity"
+        android:id="@+id/app_bar_act"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_directions_run_24"/>
+
+
+</menu>
