@@ -3,10 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="Jocs"
+    <item
         android:id="@+id/app_bar_games"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_baseline_videogame_asset_24"/>
+        android:enabled="false"
+        android:icon="@drawable/ic_baseline_videogame_asset_24"
+        android:title="Jocs"
+        app:showAsAction="always" />
 
 
     <item android:title="Chat"
