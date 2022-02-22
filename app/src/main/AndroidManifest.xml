@@ -10,6 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjecteFinalMiniMochis">
         <activity
+            android:name=".Configuracio"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Ajustes"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Games"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Act"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Chat"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Info"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Perfil"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".Home"
             android:exported="true">
             <intent-filter>

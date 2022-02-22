@@ -26,8 +26,7 @@
             app:fabAnimationMode="slide"
             app:fabCradleMargin="5dp"
             app:fabCradleRoundedCornerRadius="10dp"
-            app:fabCradleVerticalOffset="5dp"
-            app:navigationIcon="@drawable/ic_baseline_menu_24" />
+            app:fabCradleVerticalOffset="5dp"/>
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
